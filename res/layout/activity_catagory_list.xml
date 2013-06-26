@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom_grey"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".CatagoryListActivity" >
+
+    <ListView
+        android:id="@+id/catagoryList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/custom_grey" 
+        android:divider="@null"
+        android:cacheColorHint="#00000000" >
+    </ListView>
+
+</RelativeLayout>
