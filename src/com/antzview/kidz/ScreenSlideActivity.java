@@ -79,7 +79,7 @@ public class ScreenSlideActivity extends FragmentActivity implements OnClickList
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_slide_screen);
-
+	
 		position = getIntent().getIntExtra("result", -1);
 		int categoryPosition = getIntent().getIntExtra("categoryId", -1);
 		itemList = Builder.getItemListAtPosition(categoryPosition);

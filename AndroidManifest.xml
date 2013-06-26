@@ -22,9 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="CatagoryListActivity"></activity>
-        <activity android:name="ImageGridActivity"></activity>
-        <activity android:name="ScreenSlideActivity"></activity>
+        <activity android:name="CatagoryListActivity" >
+        </activity>
+        <activity android:name="ImageGridActivity" >
+        </activity>
+        <activity android:name="ScreenSlideActivity" >
+        </activity>
     </application>
 
 </manifest>

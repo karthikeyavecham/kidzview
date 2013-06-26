@@ -27,7 +27,7 @@ public class CatagoryListActivity extends Activity implements OnItemClickListene
 		builder = new Builder();
 		builder.buildCategoryList(getResources());
 		afterActivityCreation();
-
+ 
 	}
 
  	String[] labels = null;
