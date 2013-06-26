@@ -105,7 +105,9 @@ public class ScreenSlideActivity extends FragmentActivity implements OnClickList
 				setImageDesc();
 				playAudio(); // play when item on screen changes
 			}
+			/*
 			@Override
+			
 		        public void onPageScrollStateChanged(int state) {
 
 		            if (state == ViewPager.SCROLL_STATE_IDLE) {
@@ -125,6 +127,7 @@ public class ScreenSlideActivity extends FragmentActivity implements OnClickList
 		                
 		            }
 		        }
+		        */
 
 		});
 
