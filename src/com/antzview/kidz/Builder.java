@@ -12,7 +12,7 @@ import android.util.Log;
 
 public class Builder
 {
-
+ 
 	Resources resources;
 
 	private static ArrayList<Category> categoryList;
