@@ -235,22 +235,20 @@ public final class R {
         public static final int vehicle_train=0x7f0200d0;
     }
     public static final class id {
-        public static final int action_previous=0x7f0b000e;
-        public static final int button_play=0x7f0b000f;
+        public static final int action_previous=0x7f0b000c;
+        public static final int button_play=0x7f0b000d;
         public static final int catagoryList=0x7f0b0000;
         public static final int frame_layout=0x7f0b0002;
-        public static final int full_image=0x7f0b000a;
-        public static final int home_button=0x7f0b0008;
+        public static final int full_image=0x7f0b0008;
         public static final int imageGrid=0x7f0b0001;
-        public static final int itemText=0x7f0b0004;
-        public static final int logo_imageView=0x7f0b0009;
-        public static final int next_button=0x7f0b0006;
+        public static final int logo_imageView=0x7f0b0007;
+        public static final int next_button=0x7f0b0005;
         public static final int pager=0x7f0b0003;
-        public static final int play_button=0x7f0b0007;
-        public static final int previous_button=0x7f0b0005;
-        public static final int rowItemIcon=0x7f0b000b;
-        public static final int rowItemLabel=0x7f0b000c;
-        public static final int testAnimation=0x7f0b000d;
+        public static final int play_button=0x7f0b0006;
+        public static final int previous_button=0x7f0b0004;
+        public static final int rowItemIcon=0x7f0b0009;
+        public static final int rowItemLabel=0x7f0b000a;
+        public static final int testAnimation=0x7f0b000b;
     }
     public static final class layout {
         public static final int activity_catagory_list=0x7f030000;

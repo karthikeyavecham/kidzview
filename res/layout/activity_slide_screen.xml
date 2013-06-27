@@ -10,59 +10,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <RelativeLayout 
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical" >
 
-        <TextView
-            android:id="@+id/itemText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:gravity="center"
-            android:textColor="@android:color/black"
-            android:textSize="25sp"
-            android:textStyle="bold|italic" />
+        <ImageButton
+            android:id="@+id/previous_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/back_button" />
 
-        <LinearLayout
+        <ImageButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/next_botton" />
+
+        <ImageButton
+            android:id="@+id/play_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_gravity="bottom|center_horizontal"
-            android:background="@drawable/new_bar"
-            android:orientation="horizontal" >
+            android:background="@android:color/transparent"
+            android:src="@drawable/play_button" />
 
-            <ImageButton
-                android:id="@+id/previous_button"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="25"
-                android:background="@android:color/transparent" />
-
-            <ImageButton
-                android:id="@+id/next_button"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="25"
-                android:background="@android:color/transparent"
-                android:scaleType="centerInside" />
-
-            <ImageButton
-                android:id="@+id/play_button"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="25"
-                android:background="@android:color/transparent" />
-
-            <ImageButton
-                android:id="@+id/home_button"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="25"
-                android:background="@android:color/transparent" />
-        </LinearLayout>
+        
     </RelativeLayout>
 
 </FrameLayout>

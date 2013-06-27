@@ -90,12 +90,12 @@ public class ScreenSlideActivity extends FragmentActivity implements OnClickList
 		mPager.setAdapter(mPagerAdapter); 
 		ImageButton backButton = (ImageButton) findViewById(R.id.previous_button);
 		ImageButton nextButton = (ImageButton) findViewById(R.id.next_button);
-		ImageButton homeButton = (ImageButton) findViewById(R.id.home_button);
-		itemText = (TextView) findViewById(R.id.itemText);
+		//ImageButton homeButton = (ImageButton) findViewById(R.id.home_button);
+		//itemText = (TextView) findViewById(R.id.itemText);
 		setImageDesc();
 		backButton.setOnClickListener(this);
 		nextButton.setOnClickListener(this);
-		homeButton.setOnClickListener(this);
+		//homeButton.setOnClickListener(this);
 		mPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
 			@Override
 			public void onPageSelected(int position)
@@ -216,12 +216,12 @@ public class ScreenSlideActivity extends FragmentActivity implements OnClickList
 				Log.i("tag", "after next: " + mPager.getCurrentItem());
 				break;
 			}
-			case R.id.home_button:
+			/*case R.id.home_button:
 			{
 				Intent intent = new Intent();
 				intent.setClass(this, CatagoryListActivity.class);
 				startActivity(intent);
-			}
+			}*/
 			}
 
 	}
